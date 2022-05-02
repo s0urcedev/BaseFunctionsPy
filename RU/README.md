@@ -155,7 +155,7 @@ def func1():
 ***Статья, где эта тема раскрыта глубже:*** https://tproger.ru/explain/tipizacija-jazykov-programmirovanija-razbiraemsja-v-osnovah/
 
 
-#### Что же нам дают эти зания?
+#### Что же нам дают эти знания?
 
 Из типизации Python мы можем извлечь те факты, что:
 
