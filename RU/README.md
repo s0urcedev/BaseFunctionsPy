@@ -1,4 +1,4 @@
-# BaseFunctionsJS_RU
+# BaseFunctionsPy_RU
 
 ## Вступление
 
