@@ -201,9 +201,9 @@ A string data type that stores text.
 
 ***Declarations of variables of this type may look like this:***
 
-```js
-let txt1 = "Hello"
-let txt2 = 'World'
+```py
+txt1 = "Hello"
+txt2 = 'World'
 ```
 
 There is no difference between the quotes, the main thing is that they open and close the string at the same time.
