@@ -2,8 +2,8 @@
 
 ## Choose your language / Оберіть вашу мову / Выберите ваш язык
 
-## [English (EN)](https://github.com/s0urce18/BaseFunctionsPy/tree/main/EN)
+## [English (EN)](https://github.com/s0urcedev/BaseFunctionsPy/tree/main/EN)
 
-## [Українська (UA)](https://github.com/s0urce18/BaseFunctionsPy/tree/main/UA)
+## [Українська (UA)](https://github.com/s0urcedev/BaseFunctionsPy/tree/main/UA)
 
-## [Русский (RU)](https://github.com/s0urce18/BaseFunctionsPy/tree/main/RU)
+## [Русский (RU)](https://github.com/s0urcedev/BaseFunctionsPy/tree/main/RU)

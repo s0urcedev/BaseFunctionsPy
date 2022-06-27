@@ -838,6 +838,6 @@ sm = s1 * 3 # "hellohellohello"
 
 It's all about the prince! I gave you everything I wanted. Hope this guide helped you.
 
-I also have a more difficult guide with more complex topics, but it's more just a collection of solutions, but for those who are interested, you can read: https://github.com/s0urce18/AdditionalFunctions
+I also have a more difficult guide with more complex topics, but it's more just a collection of solutions, but for those who are interested, you can read: https://github.com/s0urcedev/AdditionalFunctions
 
 **Thanks to all! Hope to see you again :)**
