@@ -62,8 +62,8 @@ The ad does not require keywords.
 
 ```py
 a1 = 1
-a2=True
-a3="hello"
+a2 = True
+a3 = "hello"
 ```
 
 When naming variables, as mentioned above, the snake_case style is used.
@@ -80,7 +80,7 @@ Also, if specifically about Python, then in it the name of a variable can begin 
 
 It is not explicitly specified whether a variable is local or global in Python. By default, they are local to the block of code in which they are declared. To use globals or variables of an external block of code, use `global` and `nonlocal`
 
-###global
+### global
 
 This keyword is used to indicate that the variable in this block of code will be taken from the global level, the program level.
 
@@ -90,19 +90,19 @@ This keyword is used to indicate that the variable in this block of code will be
 a1 = 1
 
 def func1():
-     print(a1) # a1 is not declared
+    print(a1) # a1 is not declared
 
 def func2():
-     global a1
-     print(a1) #1
+    global a1
+    print(a1) #1
 
 def func3():
-     fucn4():
-         global a1
-         print(a1) #1
+    def fucn4():
+        global a1
+        print(a1) #1
 ```
 
-###nonlocal
+### nonlocal
 
 This keyword is used to indicate that the variable in this code block will be taken from the code block one level up.
 
@@ -112,14 +112,14 @@ This keyword is used to indicate that the variable in this code block will be ta
 a1 = 1
 
 def func1():
-     a1 = 2
-     fucn2():
-         global a1
-         print(a1) #1
-    
-     def func3():
-         nonlocal a1
-         print(a1) #2
+    a1 = 2
+    def fucn2():
+        global a1
+        print(a1) #1
+
+    def func3():
+        nonlocal a1
+        print(a1) #2
 ```
 
 ### Data types
@@ -169,8 +169,8 @@ This is a boolean data type that is used in places where you need to store 2 opt
 ***Declarations of variables of this type may look like this:***
 
 ```py
-t=True
-f=False
+t = True
+f = False
 ```
 
 They are used mainly in conditional constructions, which we will consider later.
@@ -182,8 +182,8 @@ This is an integer data type that stores integers.
 ***Declarations of variables of this type may look like this:***
 
 ```py
-p=1
-n=-2
+p = 1
+n = -2
 o = 0
 ```
 
@@ -495,8 +495,8 @@ def proc(b1, b2, b3, b4): # procedure
     print(b2)
     print(b3)
 
-let a = func(1, 2, 3, 4) # == 4(a4)
-let b = proc(1, 2, 3, 4) # == None
+a = func(1, 2, 3, 4) # == 4(a4)
+b = proc(1, 2, 3, 4) # == None
 ```
 
 **What happened?**
@@ -677,7 +677,7 @@ a = arr[4] # Error
 ***To string a list in Python, use the following construct:***
 
 ```py
-arr['''c''':'''to''']
+arr['''from''':'''to''']
 ```
 
 If one of the parameters is not specified, it automatically becomes the edge of the list on its side.
@@ -709,11 +709,11 @@ Sometimes there are situations when it is necessary that the indices were not nu
 ***Declaration syntax***
 
 ```py
-dic={
-    '''index name 1''': '''value 1''',
-    '''index name 2''': '''value 2''',
-    ...
-    '''index name N''': '''value N'''}
+dic = {
+       '''index name 1''': '''value 1''',
+       '''index name 2''': '''value 2''',
+       ...
+       '''index name N''': '''value N'''}
 ```
 
 ***Reversal and assignment is the same, only indices are not necessarily digits:***
@@ -745,7 +745,7 @@ After we got acquainted with arrays, we can talk about strings.
 In fact: **string** is an array of characters. Its elements can be accessed as in an array, but cannot be changed as elements in an array.
 
 ```py
-s="abc"
+s = "abc"
 c = s[0] # "a"
 s[0] = "d" # not possible
 ```
@@ -764,7 +764,7 @@ sm = s1 * 3 # "hellohellohello"
 * `len()` - returns the length of the string
 
     ```py
-    s="abc"
+    s = "abc"
     l = len(s) # 3
     ```
 
