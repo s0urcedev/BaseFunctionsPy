@@ -1,4 +1,4 @@
-# BaseFunctionsJS
+# BaseFunctionsPy
 
 ## Choose your language / Оберіть вашу мову / Выберите ваш язык
 
