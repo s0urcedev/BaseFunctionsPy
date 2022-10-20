@@ -500,8 +500,8 @@ def proc(b1, b2, b3, b4): # процедура
     print(b2)
     print(b3)
 
-let a = func(1, 2, 3, 4) # == 4(a4)
-let b = proc(1, 2, 3, 4) # == None
+a = func(1, 2, 3, 4) # == 4(a4)
+b = proc(1, 2, 3, 4) # == None
 ```
 
 **Что же случилось?**
