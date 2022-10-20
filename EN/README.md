@@ -248,7 +248,7 @@ There are also a very large number of methods for strings, a list of which and i
 
 `!=` - inequality
 
-`>` - more
+`>` - greater
 
 `>=` - greater than or equal to
 
